@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60fa3353-49cf-4d5e-b366-79e5604b3662" name="Changes" comment="Add some content to html file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/France flag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/France flag.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/france flag icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/france flag icon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uni\Term 7\Web Programming I\git\sahand-golshani\images" />
       <recent name="D:\Uni\Term 7\Web Programming I\git\sahand-golshani" />
     </key>
   </component>
@@ -53,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1634740212364</updated>
       <workItem from="1634740218199" duration="8032000" />
-      <workItem from="1635426332975" duration="6523000" />
+      <workItem from="1635426332975" duration="7113000" />
+      <workItem from="1636044125936" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="added a title">
       <created>1634740509576</created>
