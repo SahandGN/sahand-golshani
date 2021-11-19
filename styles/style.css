@@ -31,7 +31,8 @@ header nav ul li:hover{
 
 div {
     border: red dashed 1px;
-    margin: 2px;
+    border-radius: 5px;
+    margin: 3px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
@@ -90,4 +91,38 @@ a:visited{
 }
 a:hover {
     text-decoration: underline;
+}
+
+.history-container{
+    display: flex;
+    border: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+}
+.history-section{
+    float: left;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+.history-section h4{
+    text-align: center;
+}
+
+.history-section img{
+    border-radius: 5px;
+    max-width: 95%;
+    align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+    .history-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 95%;
+        align-items: flex-start;
+    }
 }
