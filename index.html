@@ -13,11 +13,31 @@
 
 </head>
 
-<body>
+<body id="body">
+
 <label>Search the site:</label>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
 <button>Search</button>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+<script>
+    function myFunction() {
+        const element = document.body;
+        element.classList.toggle("dark-mode");
+        element.querySelector("header").classList.toggle("dark-mode-header");
+
+        const list_arr = element.querySelectorAll("ul,li");
+        for (j = 0; j < list_arr.length; j++) {
+            list_arr[j].classList.toggle("dark-mode-fonts");
+        }
+        const table_arr = element.querySelectorAll("table");
+        for (j = 0; j < table_arr.length; j++) {
+            table_arr[j].classList.toggle("dark-mode-fonts");
+        }
+
+    }</script>
+
 
 <header><h1>France</h1>
     <nav>
