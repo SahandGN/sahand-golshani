@@ -8,7 +8,8 @@
     <meta name="keywords" content="html, web programming, france, french">
     <meta name="description" content="This website is about france">
     <meta name="author" content="Sahand Golshani">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 
 </head>
@@ -69,13 +70,13 @@
         the French West Indies, and several islands in Oceania and the Indian Ocean.
     </p>
 </div>
-<div id="france_flag">
-    <h3>France flag:</h3>
-    <img src="images/France%20flag.jpg" alt="France Flag">
+<div>
+    <h3 class="header" id="france_flag_header">France flag:</h3>
+    <img id="france_flag" src="images/France%20flag.jpg" alt="France Flag">
 </div>
-<div id="france_provinces">
-    <h3>Provinces of france:</h3>
-    <p>
+<div>
+    <h3 class="header" id="france_provinces_header">Provinces of france:</h3>
+    <p id="france_provinces">
         The provinces of France were roughly equivalent to the historic counties of England. They came into their final
         form
         over the course of many hundreds of years, as many dozens of semi-independent fiefs and former independent
@@ -91,9 +92,9 @@
         today.
     </p>
 </div>
-<div id="important_provinces">
-    <h3>Most important provinces:</h3>
-    <ul>
+<div>
+    <h3 class="header"  id="important_provinces_header">Most important provinces:</h3>
+    <ul id="important_provinces">
         <li>Paris</li>
         <li>Lyon</li>
         <li>Marseille</li>
@@ -103,74 +104,76 @@
         <li>Nice</li>
     </ul>
 </div>
-<div id="french_loanwords">
-    <h3>List of French loanwords in Persian:</h3>
-    <p>
-        A great number of words of French origin have entered the Persian language since the early modern period. The
-        following is a partial list of these loanwords:
-    </p>
-    <table>
-        <tr>
-            <th>French</th>
-            <th>Persian <br>(Persian alphabet)</th>
-            <th>Persian <br>(Perso-Latin alphabet)</th>
-        </tr>
-        <tr>
-            <td>abat-jour</td>
-            <td>آباژور</td>
-            <td>ābāžor</td>
-        </tr>
-        <tr>
-            <td>acide</td>
-            <td>اسید</td>
-            <td>asid</td>
-        </tr>
-        <tr>
-            <td>crochet</td>
-            <td>کروشه</td>
-            <td>kroše</td>
-        </tr>
-        <tr>
-            <td>gendarmerie</td>
-            <td>ژاندارمرى</td>
-            <td>žāndārmeri</td>
-        </tr>
-        <tr>
-            <td>rendez-vous</td>
-            <td>رانده وو</td>
-            <td>rānde vu</td>
-        </tr>
-        <tr>
-            <td>rimmel</td>
-            <td>ریمل</td>
-            <td>rimel</td>
-        </tr>
-        <tr>
-            <td>robe de chambre</td>
-            <td>رب دوشامبر</td>
-            <td>rob do šāmbr</td>
-        </tr>
-        <tr>
-            <td>impérialisme</td>
-            <td>امپرياليسم</td>
-            <td>amperyālism</td>
-        </tr>
-        <tr>
-            <td>Méditerranée</td>
-            <td>مديترانه‌</td>
-            <td>Mediterāne</td>
-        </tr>
-        <tr>
-            <td>xerox</td>
-            <td>زیراکس</td>
-            <td>zirāks</td>
-        </tr>
-    </table>
+<div>
+    <h3 class="header" id="french_loanwords_header">List of French loanwords in Persian:</h3>
+    <section id="french_loanwords">
+        <p>
+            A great number of words of French origin have entered the Persian language since the early modern period. The
+            following is a partial list of these loanwords:
+        </p>
+        <table>
+            <tr>
+                <th>French</th>
+                <th>Persian <br>(Persian alphabet)</th>
+                <th>Persian <br>(Perso-Latin alphabet)</th>
+            </tr>
+            <tr>
+                <td>abat-jour</td>
+                <td>آباژور</td>
+                <td>ābāžor</td>
+            </tr>
+            <tr>
+                <td>acide</td>
+                <td>اسید</td>
+                <td>asid</td>
+            </tr>
+            <tr>
+                <td>crochet</td>
+                <td>کروشه</td>
+                <td>kroše</td>
+            </tr>
+            <tr>
+                <td>gendarmerie</td>
+                <td>ژاندارمرى</td>
+                <td>žāndārmeri</td>
+            </tr>
+            <tr>
+                <td>rendez-vous</td>
+                <td>رانده وو</td>
+                <td>rānde vu</td>
+            </tr>
+            <tr>
+                <td>rimmel</td>
+                <td>ریمل</td>
+                <td>rimel</td>
+            </tr>
+            <tr>
+                <td>robe de chambre</td>
+                <td>رب دوشامبر</td>
+                <td>rob do šāmbr</td>
+            </tr>
+            <tr>
+                <td>impérialisme</td>
+                <td>امپرياليسم</td>
+                <td>amperyālism</td>
+            </tr>
+            <tr>
+                <td>Méditerranée</td>
+                <td>مديترانه‌</td>
+                <td>Mediterāne</td>
+            </tr>
+            <tr>
+                <td>xerox</td>
+                <td>زیراکس</td>
+                <td>zirāks</td>
+            </tr>
+        </table>
+    </section>
 </div>
 
 <div>
-    <h3>Three part of france history</h3>
-    <div class="history-container">
+    <h3 class="header" id="history_container_header">Three part of france history</h3>
+    <div class="history_container">
         <section class="history-section">
             <h4>Early Middle Ages (5th–10th century)</h4>
             <p>At the end of the Antiquity period, ancient Gaul was divided into several Germanic kingdoms and a
@@ -265,7 +268,7 @@
 
 
 <div id="links_references">
-    <h3>Links and references:</h3>
+    <h3 class="header">Links and references:</h3>
     <p>wikipedia: <a href="https://en.wikipedia.org/wiki/France" target="_blank">France</a></p>
     <p>wikipedia: <a href="https://en.wikipedia.org/wiki/Provinces_of_France" target="_blank">Provinces of France</a>
     </p>
@@ -273,7 +276,7 @@
         French loanwords in Persian</a></p>
 </div>
 <div id="Sample video">
-    <h3>It's the sample video:</h3>
+    <h3 class="header">It's the sample video:</h3>
     <video height="150" autoplay controls>
         <source src="videos/Sample%20Video.mp4" type="video/mp4">
         Your browser does not support the video tag :(
