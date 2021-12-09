@@ -30,13 +30,21 @@ header nav ul li:hover{
 
 
 div {
-    border: red dashed 1px;
+    border-top: none;
+    border-bottom: cadetblue solid 1px;
+    border-left: cadetblue solid 1px;
+    border-right: cadetblue solid 1px;
     border-radius: 5px;
-    margin: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 2px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.header{
+    background-color: beige;
+    border-top: cadetblue solid 1px;
+    border-radius: 5px;
+    padding: 5px 0;
 }
 
 div ul {
@@ -92,7 +100,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.history-container{
+.history_container{
     display: flex;
     border: none;
     flex-direction: row;
@@ -118,7 +126,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .history-container {
+    .history_container {
         flex-direction: column;
         justify-content: flex-start;
         width: 95%;
