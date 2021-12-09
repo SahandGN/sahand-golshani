@@ -45,6 +45,7 @@ div {
     border-top: cadetblue solid 1px;
     border-radius: 5px;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 div ul {
