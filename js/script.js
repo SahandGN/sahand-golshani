@@ -1,6 +1,4 @@
-$(document).ready(function (){
-    alert("Click on title of each section and hide the section")
-})
+
 
 $(document).ready(function () {
     $("#france_flag_header").click(function () {
